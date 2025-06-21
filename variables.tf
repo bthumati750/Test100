@@ -1,6 +1,6 @@
 variable "resource_group_name" {
   type        = string
-  default     = "example.com"
+  default     = "Test-rg"
   description = "Name of the resource group"
 }
 
@@ -12,7 +12,7 @@ variable "location" {
 
 variable "name" {
   type        = string
-  default     = "example"
+  default     = "New"
   description = "Base name for resources"
 }
 
